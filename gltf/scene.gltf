@@ -1,0 +1,256 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 34511,
+      "max": [
+        0.12111599743366241,
+        0.19651900231838226,
+        0.11466000229120255
+      ],
+      "min": [
+        -0.10264100134372711,
+        -0.15917600691318512,
+        -0.13752000033855438
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 414132,
+      "componentType": 5126,
+      "count": 34511,
+      "max": [
+        0.96661901473999023,
+        0.99118131399154663,
+        0.99897408485412598
+      ],
+      "min": [
+        -0.99982142448425293,
+        -0.99786239862442017,
+        -0.99929338693618774
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 34511,
+      "max": [
+        0.9998970627784729,
+        0.99928402900695801,
+        0.99955528974533081,
+        1
+      ],
+      "min": [
+        -0.99962025880813599,
+        -0.99928402900695801,
+        -0.99870055913925171,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 34511,
+      "max": [
+        0.91259801387786865,
+        0.99853497743606567
+      ],
+      "min": [
+        0.0014649620279669762,
+        0.14208999276161194
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 141840,
+      "max": [
+        34510
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Innovation Studio (https://sketchfab.com/cmp_innovation_studio)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/14f196c232d14b4d819c9377463169ff",
+      "title": "Redhead Duck"
+    },
+    "generator": "Sketchfab-3.18.6",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 567360,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 276088,
+      "byteOffset": 567360,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 828264,
+      "byteOffset": 843448,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 552176,
+      "byteOffset": 1671712,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2223888,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/material_0_baseColor.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "material_0",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.59999999999999998
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "material_0-material",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "Collada visual scene group"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        -0.98594420000000005,
+        0.16138520000000001,
+        0.043231440000000003,
+        0,
+        -0.058034870000000002,
+        -0.57345409999999997,
+        0.81717949999999995,
+        0,
+        0.1566719,
+        0.80318440000000002,
+        0.57475969999999998,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "redHeadDuck"
+    },
+    {
+      "mesh": 0,
+      "name": "material_0-material"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
+
